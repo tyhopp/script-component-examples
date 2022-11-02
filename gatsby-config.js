@@ -5,5 +5,6 @@ module.exports = {
   flags: {
     PARTIAL_HYDRATION: false,
   },
+  partytownProxiedURLs: [`http://localhost:8000/drift.js`],
   plugins: [],
 };

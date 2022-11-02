@@ -5,7 +5,7 @@ export const wrapPageElement = ({ element }) => {
   return (
     <>
       {element}
-      <Script src="drift.js" />
+      <Script strategy="off-main-thread" src="http://localhost:8000/drift.js" />
     </>
   );
 };
